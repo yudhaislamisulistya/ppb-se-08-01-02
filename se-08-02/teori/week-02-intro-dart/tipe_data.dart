@@ -46,6 +46,32 @@ void main(){
         1: "Satu",
     };
 
+    // Data
+    // 1. ID: 1, Name, Yudha Islami Sulistya, Email: yudha@example.com
+    // 2. ID: 2, Name, Agus Harjoko, Email: agus@example.com
+    // 3. ID: 3, Name, Budi Sudjatmiko, Email: budi@example.com
+    List<Map<String, dynamic>> users = [
+        {
+            "id": 1,
+            "name": "Yudha Islami Sulistya",
+            "email": "[EMAIL_ADDRESS]"
+        },
+        {
+            "id": 2,
+            "name": "Agus Harjoko",
+            "email": "[EMAIL_ADDRESS]"
+        },
+        {
+            "id": 3,
+            "name": "Budi Sudjatmiko",
+            "email": "[EMAIL_ADDRESS]"
+        }
+    ];
+
+    print(users[1]["name"]);
+
+    
+
     // Javascript
     // const  data = {
     //     "nama": "Yudha",
